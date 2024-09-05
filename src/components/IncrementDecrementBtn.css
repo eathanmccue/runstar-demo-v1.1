@@ -1,0 +1,61 @@
+/* IncrementDecrementBtn.css */
+
+input[type="number"] {
+    text-align: center;
+    height: 4rem;
+    width: 4rem;
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+  }
+
+.incdec{
+    padding: 0.625rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.incdec button{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.btn-group {
+    display: flex;
+    
+    align-items: center;
+}
+
+span{
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 765px){
+    .btn-group{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input[type="number"]{
+        width: 8rem;
+    }
+
+    .incdec{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .incdec button{
+        height: 3.125rem;
+        width: 3.125rem;
+        margin: 0 0.25rem;
+    }
+}
