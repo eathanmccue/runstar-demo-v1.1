@@ -754,7 +754,7 @@ h5{
 
 #plain{
 	white-space: pre;
-	  
+	overflow: scroll;
 }
 
 .jobInfoContainer > div > label{
