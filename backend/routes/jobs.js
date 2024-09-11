@@ -35,6 +35,7 @@ router.route('/add').post((req, res) => {
     const hall = req.body.hall;
     const stair = req.body.stair;
     const ferry = req.body.ferry;
+    const lunch = req.body.lunch;
     const estimateDate = req.body.estimateDate;
     const estimateTime = req.body.estimateTime;
     const estimateTime24 = req.body.estimateTime24;
@@ -153,7 +154,7 @@ router.route('/add').post((req, res) => {
     const updatedBy = req.body.updatedBy;
     const plaintext = req.body.plaintext;
 
-    const newJob = new Job({clientName,email,phone1,phone2,jobDate,jobTime,jobTime24,address1,city1,type1,address2,city2,type2,drive,hall,stair,ferry,estimateDate,estimateTime,estimateTime24,rate,crew,unit1,unit2,buzz1,buzz2,floor1,floor2,armchair,art,bench,bookshelf,chairs,credenza,chinaCab,coffeeTable,coffeeTableL,glassTop,diningTable,diningTableAss,entertainment,tv,loveseat,ottoman,rugs,beanBag,sofa,sectional,lampTable,lampFloor,bedAss,king,queen,twin,futon,crib,boxSpring,armoire,dresser,nightstand,trunk,mirrors,stool,cabinetWood,barCart,iron,miniFridge,appCounter,kitchenTable,vaccuum,sideTable,desk,deskAss,fileCabinet,pc,printer,officeChair,bbq,bike,deckBox,equipment,firepit,toy,pot,umbrella,outTable,outChair,adr,outLove,exbike,exStation,treadmill,fridge,deepFreeze,ladder,storage,toolChest,tools,tires,weight,box,boxL,ac,coatRack,deco,fan,suitcase,piano,upPiano,pianoBaby,keyboard,drum,guitar,speaker,cat,misc,obese,assS,assM,assL,junkMatt,otherJunk,junkType,paper,bubble,cardB,wardB,travelTime,totalTime,totalCost,notes,createdBy,updatedBy,plaintext});
+    const newJob = new Job({clientName,email,phone1,phone2,jobDate,jobTime,jobTime24,address1,city1,type1,address2,city2,type2,drive,hall,stair,ferry,lunch,estimateDate,estimateTime,estimateTime24,rate,crew,unit1,unit2,buzz1,buzz2,floor1,floor2,armchair,art,bench,bookshelf,chairs,credenza,chinaCab,coffeeTable,coffeeTableL,glassTop,diningTable,diningTableAss,entertainment,tv,loveseat,ottoman,rugs,beanBag,sofa,sectional,lampTable,lampFloor,bedAss,king,queen,twin,futon,crib,boxSpring,armoire,dresser,nightstand,trunk,mirrors,stool,cabinetWood,barCart,iron,miniFridge,appCounter,kitchenTable,vaccuum,sideTable,desk,deskAss,fileCabinet,pc,printer,officeChair,bbq,bike,deckBox,equipment,firepit,toy,pot,umbrella,outTable,outChair,adr,outLove,exbike,exStation,treadmill,fridge,deepFreeze,ladder,storage,toolChest,tools,tires,weight,box,boxL,ac,coatRack,deco,fan,suitcase,piano,upPiano,pianoBaby,keyboard,drum,guitar,speaker,cat,misc,obese,assS,assM,assL,junkMatt,otherJunk,junkType,paper,bubble,cardB,wardB,travelTime,totalTime,totalCost,notes,createdBy,updatedBy,plaintext});
 
     newJob.save()
         .then(() => res.json('Job added.'))
@@ -193,6 +194,7 @@ router.route('/update/:id').post((req, res) => {
             job.hall = req.body.hall;
             job.stair = req.body.stair;
             job.ferry = req.body.ferry;
+            job.lunch = req.body.lunch;
             job.estimateDate = req.body.estimateDate;
             job.estimateTime = req.body.estimateTime;
             job.estimateTime24 = req.body.estimateTime24;

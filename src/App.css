@@ -1021,6 +1021,21 @@ h5{
 	padding: 0.3rem;
 }
 
+
+#adminPass{
+	
+    -webkit-text-security: disc;
+
+}
+
+#guestPass{
+	
+    -webkit-text-security: disc;
+
+}
+
+
+
 /* mobile styles */
 
 @media only screen and (max-width: 765px) {
@@ -1081,7 +1096,11 @@ h5{
 		margin-bottom: 1.5rem;
 	}
 
-	.estimateContainer > .clientInfo > * > input{
+	.estimateContainer > .clientInfo > .left > input{
+		width: 100%;
+	}
+
+	.estimateContainer > .clientInfo > .right > input{
 		width: 100%;
 	}
 

@@ -135,7 +135,7 @@ function ViewJob(props){
                 <div>
                     <h5>Viewing job #{job._id}</h5>
                 </div>
-                <div class='plainContainer'>   
+                <div>   
                     <p id='plain'> {job.plaintext} </p>
                 </div> 
 

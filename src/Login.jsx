@@ -112,14 +112,18 @@ function Login(props){
                         {/* admin */}
                         <div>
                             <label>Admin</label>
-                            <input id='adminPass' type="password" placeholder='password' onChange={(event) => handleAdminPass(event)} />
+                            
+                            <input id='adminPass' type="text" placeholder='password' autoCapitalize='off' onChange={(event) => handleAdminPass(event)} />
+                            
                         </div>
 
                         {/* guest */}
-                        <div>
+                        <div className='pass'>
                             <label>Guest</label>
-                            <input id='guestName' type="text" placeholder='username' onChange={handleGuestUser} />
-                            <input id='guestPass' type="password" placeholder='password' onChange={handleGuestPass} />
+                            <input id='guestName' type="text" placeholder='username' autoCapitalize='off' onChange={handleGuestUser} />
+                            
+                            <input id='guestPass' type="text" placeholder='password' autoCapitalize='off' onChange={handleGuestPass} />
+                            
                         </div>
 
                         {/* login button */}

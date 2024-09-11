@@ -59,6 +59,7 @@ function EditForm(){
         let hall = false;
         let stair = false
         let ferry = false;
+        let lunch = false;
         let type1 = 1;
         let type2 = 1;
 
@@ -131,10 +132,10 @@ function EditForm(){
             bonus = bonus -0.4;
         }
         else if(crew == 5){
-        bonus = bonus -0.5;
+        bonus = bonus -0.45;
         }
         else if(crew == 6){
-            bonus = bonus -0.6;
+            bonus = bonus -0.55;
         }
         else if(crew == 7){
             bonus = bonus -0.7;
@@ -828,7 +829,7 @@ function EditForm(){
             plaintext = plaintext + appCounter + "x\tCountertop Appliance\n";
         }
 
-        let kitchenTable = parseInt(job.armoire);
+        let kitchenTable = parseInt(job.kitchenTable);
         if(countValues['kitchenTable'] !== undefined && isNaN(countValues['kitchenTable']) == false){
             kitchenTable = countValues['kitchenTable'];
         }
@@ -837,7 +838,7 @@ function EditForm(){
             plaintext = plaintext + kitchenTable + "x\tKitchen Table\n";
         }
 
-        let vaccuum = parseInt(job.armoire);
+        let vaccuum = parseInt(job.vaccuum);
         if(countValues['vaccuum'] !== undefined && isNaN(countValues['vaccuum']) == false){
             vaccuum = countValues['vaccuum'];
         }
@@ -1413,14 +1414,23 @@ function EditForm(){
         suppliesPrice = (parseFloat((paper*30)+(bubble*30)+(cardB*4)+(wardB*25)));
 
         moveTime = bonus*(parseFloat((armchair*14)+(art*7)+(bench*8)+(bookshelf*12)+(chairs*5)+(credenza*14)+(coffeeTable*7)+(chinaCab*22)+(coffeeTableL*12)+(glassTop*13)+(crib*30)+(cat*10)+(outLove*12)+(adr*13)+(obese*60)
-        +(diningTable*16)+(beanBag*12)+(diningTableAss*32)+(entertainment*10)+(tv*14)+(loveseat*12)+(ottoman*12)+(rugs*6)+(sofa*15)+(lampTable*5)+(sectional*25)+(lampFloor*5)
-        +(bedAss*40)+(armoire*16)+(king*16)+(dresser*12)+(queen*14)+(nightstand*8)+(twin*12)+(trunk*8)+(futon*20)+(mirrors*8)+(boxSpring*14)+(stool*5)+(cabinetWood*8)+(barCart*8)
+        +(diningTable*16)+(beanBag*12)+(diningTableAss*32)+(entertainment*10)+(tv*14)+(loveseat*14)+(ottoman*12)+(rugs*6)+(sofa*18)+(lampTable*5)+(sectional*25)+(lampFloor*5)
+        +(bedAss*40)+(armoire*16)+(king*16)+(dresser*14)+(queen*14)+(nightstand*8)+(twin*12)+(trunk*8)+(futon*20)+(mirrors*8)+(boxSpring*14)+(stool*5)+(cabinetWood*8)+(barCart*8)
         +(iron*4)+(miniFridge*8)+(appCounter*6)+(kitchenTable*15)+(vaccuum*4)+(desk*12)+(sideTable*6)+(deskAss*35)+(fileCabinet*10)+(pc*6)+(printer*5)+(officeChair*6)+(bbq*10)+(bike*4)
         +(deckBox*6)+(equipment*5)+(firepit*14)+(toy*5)+(pot*8)+(umbrella*4)+(outTable*6)+(outChair*4)+(exbike*8)+(exStation*12)+(treadmill*20)+(fridge*6)+(deepFreeze*6)+(ladder*5)+(storage*10)+(toolChest*10)+(tools*8)+(tires*6)+(weight*12)
         +(box*2)+(boxL*3)+(ac*6)+(coatRack*5)+(deco*10)+(fan*5)+(suitcase*3)+(piano*22)+(upPiano*30)+(pianoBaby*60)+(keyboard*6)+(drum*10)+(guitar*5)+(speaker*6)+(misc*10)+(assS*10)+(assM*20)+(assL*35)+(wardB*6)));
         //dont forgt to add wordrobe boxes - ok done!
 
-        moveTime = parseInt(moveTime+30);
+        //lunch
+        
+        if(document.getElementById('lunch').checked){
+            lunch = true; 
+            moveTime = parseFloat(moveTime+30);
+            console.log("Lunch set to true");
+            
+             
+        }
+        console.log(lunch);
 
         const travelTime = document.getElementById('ttime').value; //travel time
         
@@ -1492,10 +1502,43 @@ function EditForm(){
             plaintext = plaintext + "Floor: "+ floor2 + "\n";
         }
 
-        plaintext = plaintext + "\nServices include: Moving Truck(s), " + crew + " man crew, fuel and supplies.\n";
-
-        plaintext = plaintext + "\nUnforeseen factors increasing the time or complexity of the service are subject to an additional $"+ rate +" hourly charge.\n\n";
-        plaintext = plaintext + "To confirm moving date " + jobDate + ", please send interact e-transfer deposit of $" + deposit.toFixed(2) * 1 + " to payment@runstarservices.com\n\n";
+        let dateSplit = jobDate.split('-');
+       
+        
+        let month = "";
+        if (parseInt(dateSplit[1]) == 1){
+             month = "January";
+        }
+        else if(parseInt(dateSplit[1]) == 2){
+             month = "February";
+        }else if(parseInt(dateSplit[1]) == 3){
+             month = "March";
+        }else if(parseInt(dateSplit[1]) == 4){
+             month = "April";
+        }else if(parseInt(dateSplit[1]) == 5){
+             month = "May";        
+        }else if(parseInt(dateSplit[1]) == 6){
+             month = "June";
+        }else if(parseInt(dateSplit[1]) == 7){
+             month = "July";
+        }else if(parseInt(dateSplit[1]) == 8){
+             month = "August";
+        }else if(parseInt(dateSplit[1]) == 9){
+             month = "September";
+        }else if(parseInt(dateSplit[1]) == 10){
+             month = "October";
+        }else if(parseInt(dateSplit[1]) == 11){
+             month = "November";
+        }else {
+             month = "December";
+        }
+ 
+        let datePlain = dateSplit[0] + " - " + month + " - " + dateSplit[2];
+ 
+         plaintext = plaintext + "\nServices include: Moving Truck(s), " + crew + " man crew, fuel and supplies.\n";
+ 
+         plaintext = plaintext + "\nUnforeseen factors increasing the time or complexity of the service are subject to an additional $"+ rate +" hourly charge.\n\n";
+         plaintext = plaintext + "To confirm moving date " + datePlain + ", please send interact e-transfer deposit of $" + deposit.toFixed(2) * 1 + " to payment@runstarservices.com\n\n";
 
         plaintext = plaintext + "Estimate Date: " + estimateDate + " " + estimateTime + "\n";
 
@@ -1505,7 +1548,7 @@ function EditForm(){
         }
         
         console.log(plaintext);
-        console.log(Boolean(job.ferry));
+
         
 
         //post here
@@ -1540,6 +1583,7 @@ function EditForm(){
                     hall: hall,
                     stair: stair,
                     ferry: ferry,
+                    lunch: lunch,
                     estimateDate: estimateDate,
                     estimateTime: estimateTime,
                     estimateTime24: estimateTime24,
@@ -1838,6 +1882,9 @@ function EditForm(){
                     <input type="checkbox" id="ferry" defaultChecked={Boolean(job.ferry == "true")}/>
                     <label htmlFor="ferry">Ferry</label>
 
+                    <input type="checkbox" id="lunch" defaultChecked={Boolean(job.lunch == "true")}/>
+                    <label htmlFor="lunch">Lunch</label>
+
                 </div>
 
                 <div className='calculateTime'>
@@ -1988,7 +2035,7 @@ function EditForm(){
                     <IncrementDecrementBtn defaultValue={job.kitchenTable} id='kitchenTable' updateCount={updateCountValue} minValue={0} maxValue={50} />
 
                     <label>Vacuum</label>
-                    <IncrementDecrementBtn defaultValue={job.vacuum} id='vaccuum' updateCount={updateCountValue} minValue={0} maxValue={50} />
+                    <IncrementDecrementBtn defaultValue={job.vaccuum} id='vaccuum' updateCount={updateCountValue} minValue={0} maxValue={50} />
 
                 </div>
 

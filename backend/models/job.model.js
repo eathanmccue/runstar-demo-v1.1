@@ -21,6 +21,7 @@ const jobSchema = new Schema({
     hall: {type: String, required: false},
     stair: {type: String, required: false},
     ferry: {type: String, required: false},
+    lunch: {type: String, required: false},
     estimateDate: {type: String, required: false},
     estimateTime: {type: String, required: false},
     estimateTime24: {type: String, required: false},
