@@ -432,7 +432,7 @@ function EstimateForm(props){
         if(countValues['armchair'] !== undefined && isNaN(countValues['armchair']) == false){           // check if box is undefined
             armchair = countValues['armchair'];                                                         //set value of varibale to match the value of box
         }else{armchair = 0;}                                                                            // if variable is undefined, set value to 0
-        console.log("Arm Chair: "+armchair); 
+        //console.log("Arm Chair: "+armchair); 
 
         
         if(armchair !== 0){
@@ -443,7 +443,7 @@ function EstimateForm(props){
         if(countValues['art'] !== undefined && isNaN(countValues['art']) == false){
             art = countValues['art'];
         }else{art = 0;}
-        console.log("art: "+art); 
+        //console.log("art: "+art); 
         if(art != 0 ){
             plaintext = plaintext + art + "x\tArtwork\n";   
         }
@@ -453,7 +453,7 @@ function EstimateForm(props){
         if(countValues['bench'] !== undefined && isNaN(countValues['bench']) == false){
             bench = countValues['bench'];
         }else{bench = 0;}
-        console.log("bench: "+bench); 
+        //console.log("bench: "+bench); 
         if(bench !== 0 ){
             plaintext = plaintext + bench + "x\tBench\n";   
         }
@@ -462,7 +462,7 @@ function EstimateForm(props){
         if(countValues['bookshelf'] !== undefined && isNaN(countValues['bookshelf']) == false){
             bookshelf = countValues['bookshelf'];
         }else{bookshelf = 0;}
-        console.log("bookshelf: "+bookshelf); 
+        //console.log("bookshelf: "+bookshelf); 
         if(bookshelf !== 0 ){
             plaintext = plaintext + bookshelf + "x\tBookshelf\n"; 
         }
@@ -471,7 +471,7 @@ function EstimateForm(props){
         if(countValues['chairs'] !== undefined && isNaN(countValues['chairs']) == false){
             chairs = countValues['chairs'];
         }else{chairs = 0;}
-        console.log("chairs: "+chairs); 
+        //console.log("chairs: "+chairs); 
         if(chairs != 0 ){
             plaintext = plaintext + chairs + "x\tChair\n"; 
         }
@@ -481,7 +481,7 @@ function EstimateForm(props){
             credenza = countValues['credenza'];
         }else{credenza = 0;}
 
-        console.log("credenza: "+credenza); 
+        //console.log("credenza: "+credenza); 
         if(credenza !== undefined && credenza !== null && credenza !==0 ){
             plaintext = plaintext + credenza + "x\tCredenza\n"; 
         }
@@ -492,7 +492,7 @@ function EstimateForm(props){
             chinaCab = countValues['chinaCab'];
         }else{chinaCab = 0;}
 
-        console.log("chinaCab: "+chinaCab); 
+        //console.log("chinaCab: "+chinaCab); 
         if(chinaCab != 0 ){
             plaintext = plaintext + chinaCab + "x\tChina Cabinet\n"; 
         }
@@ -502,7 +502,7 @@ function EstimateForm(props){
             coffeeTable = countValues['coffeeTable'];
         }else{coffeeTable = 0;}
 
-        console.log("coffeeTable: "+coffeeTable); 
+        //console.log("coffeeTable: "+coffeeTable); 
         if(coffeeTable != 0 ){
             plaintext = plaintext + coffeeTable + "x\tCoffee Table\n"; 
         }
@@ -511,7 +511,7 @@ function EstimateForm(props){
         if(countValues['coffeeTableL'] !== undefined && isNaN(countValues['coffeeTableL']) == false){
             coffeeTableL = countValues['coffeeTableL'];
         }else{coffeeTableL = 0;}
-        console.log("coffeeTableL: "+coffeeTableL); 
+        //console.log("coffeeTableL: "+coffeeTableL); 
         if(coffeeTableL != 0 ){
             plaintext = plaintext + coffeeTableL + "x\tCoffee Table (Large)\n"; 
         }
@@ -521,7 +521,7 @@ function EstimateForm(props){
         if(countValues['glassTop'] !== undefined && isNaN(countValues['glassTop']) == false){
             glassTop = countValues['glassTop'];
         }else{glassTop = 0;}
-        console.log("glassTop: "+glassTop); 
+        //console.log("glassTop: "+glassTop); 
         if(glassTop != 0 ){
             plaintext = plaintext + glassTop + "x\tGlass Table Top\n"; 
         }
@@ -532,7 +532,7 @@ function EstimateForm(props){
         if(countValues['diningTable'] !== undefined && isNaN(countValues['diningTable']) == false){
             diningTable = countValues['diningTable'];
         }else{diningTable = 0;}
-        console.log("diningTable: "+diningTable); 
+        //console.log("diningTable: "+diningTable); 
         if(diningTable != 0 ){
             plaintext = plaintext + diningTable + "x\tDining Table\n"; 
         }
@@ -543,7 +543,7 @@ function EstimateForm(props){
         if(countValues['diningTableAss'] !== undefined && isNaN(countValues['diningTableAss']) == false){
             diningTableAss = countValues['diningTableAss'];
         }else{diningTableAss = 0;}
-        console.log("diningTableAss: "+diningTableAss); 
+        //console.log("diningTableAss: "+diningTableAss); 
         if(diningTableAss != 0 ){
             plaintext = plaintext + diningTableAss + "x\tDining Table & Assembly\n"; 
         }
@@ -553,7 +553,7 @@ function EstimateForm(props){
         if(countValues['entertainment'] !== undefined && isNaN(countValues['entertainment']) == false){
             entertainment = countValues['entertainment'];
         }else{entertainment = 0;}
-        console.log("entertainment: "+entertainment); 
+        //console.log("entertainment: "+entertainment); 
         if(entertainment != 0 ){
             plaintext = plaintext + entertainment + "x\tEntertainment Unit\n"; 
         }
@@ -562,7 +562,7 @@ function EstimateForm(props){
         if(countValues['tv'] !== undefined && isNaN(countValues['tv']) == false){
             tv = countValues['tv'];
         }else{tv = 0;}
-        console.log("tv: "+tv); 
+        //console.log("tv: "+tv); 
         if(tv != 0 ){
             plaintext = plaintext + tv + "x\tTV\n"; 
         }
@@ -572,7 +572,7 @@ function EstimateForm(props){
         if(countValues['loveseat'] !== undefined && isNaN(countValues['loveseat']) == false){
             loveseat = countValues['loveseat'];
         }else{loveseat = 0;}
-        console.log("loveseat: "+loveseat); 
+        //console.log("loveseat: "+loveseat); 
         if(loveseat != 0 ){
             plaintext = plaintext + loveseat + "x\tLoveseat\n"; 
         }
@@ -581,7 +581,7 @@ function EstimateForm(props){
         if(countValues['ottoman'] !== undefined && isNaN(countValues['ottoman']) == false){
             ottoman = countValues['ottoman'];
         }else{ottoman = 0;}
-        console.log("ottoman: "+ottoman); 
+        //console.log("ottoman: "+ottoman); 
         if(ottoman != 0 ){
             plaintext = plaintext + ottoman + "x\tOttoman\n"; 
         }
@@ -590,7 +590,7 @@ function EstimateForm(props){
         if(countValues['rugs'] !== undefined && isNaN(countValues['rugs']) == false){
             rugs = countValues['rugs'];
         }else{rugs = 0;}
-        console.log("rugs: "+rugs); 
+        //console.log("rugs: "+rugs); 
         if(rugs != 0 ){
             plaintext = plaintext + rugs + "x\tRugs\n"; 
         }
@@ -599,7 +599,7 @@ function EstimateForm(props){
         if(countValues['beanBag'] !== undefined && isNaN(countValues['beanBag']) == false){
             beanBag = countValues['beanBag'];
         }else{beanBag = 0;}
-        console.log("beanBag: "+beanBag); 
+        //console.log("beanBag: "+beanBag); 
         if(beanBag != 0 ){
             plaintext = plaintext + beanBag + "x\tBean Bag Chair\n"; 
         }
@@ -608,7 +608,7 @@ function EstimateForm(props){
         if(countValues['sofa'] !== undefined && isNaN(countValues['sofa']) == false){
             sofa = countValues['sofa'];
         }else{sofa = 0;}
-        console.log("sofa: "+sofa); 
+        //console.log("sofa: "+sofa); 
         if(sofa != 0 ){
             plaintext = plaintext + sofa + "x\tSofa\n"; 
         }
@@ -618,7 +618,7 @@ function EstimateForm(props){
         if(countValues['sectional'] !== undefined && isNaN(countValues['sectional']) == false){
             sectional = countValues['sectional'];
         }else{sectional = 0;}
-        console.log("sectional: "+sectional); 
+        //console.log("sectional: "+sectional); 
 
         if(sectional != 0 ){
             plaintext = plaintext + sectional + "x\tSectional\n"; 
@@ -629,7 +629,7 @@ function EstimateForm(props){
         if(countValues['lampTable'] !== undefined && isNaN(countValues['lampTable']) == false){
             lampTable = countValues['lampTable'];
         }else{lampTable = 0;}
-        console.log("lampTable: "+lampTable); 
+        //console.log("lampTable: "+lampTable); 
         if(lampTable != 0 ){
             plaintext = plaintext + lampTable + "x\tTable Lamp\n"; 
         }
@@ -639,7 +639,7 @@ function EstimateForm(props){
         if(countValues['lampFloor'] !== undefined && isNaN(countValues['lampFloor']) == false){
             lampFloor = countValues['lampFloor'];
         }else{lampFloor = 0;}
-        console.log("lampFloor: "+lampFloor); 
+        //console.log("lampFloor: "+lampFloor); 
         if(lampFloor != 0 ){
             plaintext = plaintext + lampFloor + "x\tFloor Lamp\n"; 
         }
@@ -648,7 +648,7 @@ function EstimateForm(props){
         if(countValues['bedAss'] !== undefined && isNaN(countValues['bedAss']) == false){
             bedAss = countValues['bedAss'];
         }else{bedAss = 0;}
-        console.log("bedAss: "+bedAss); 
+        //console.log("bedAss: "+bedAss); 
         if(bedAss != 0 ){
             plaintext = plaintext + bedAss + "x\tBedframe & Assembly\n"; 
         }
@@ -658,7 +658,7 @@ function EstimateForm(props){
         if(countValues['king'] !== undefined && isNaN(countValues['king']) == false){
             king = countValues['king'];
         }else{king = 0;}
-        console.log("king: "+king); 
+        //console.log("king: "+king); 
         if(king != 0 ){
             plaintext = plaintext + king + "x\tMattress KING\n"; 
         }
@@ -668,7 +668,7 @@ function EstimateForm(props){
         if(countValues['queen'] !== undefined && isNaN(countValues['queen']) == false){
             queen = countValues['queen'];
         }else{queen = 0;}
-        console.log("queen: "+queen); 
+        //console.log("queen: "+queen); 
         if(queen != 0 ){
             plaintext = plaintext + queen + "x\tMattress QUEEN\n"; 
         }
@@ -679,7 +679,7 @@ function EstimateForm(props){
         if(countValues['twin'] !== undefined && isNaN(countValues['twin']) == false){
             twin = countValues['twin'];
         }else{twin = 0;}
-        console.log("twin: "+twin); 
+        //console.log("twin: "+twin); 
         if(twin != 0 ){
             plaintext = plaintext + twin + "x\tMattress TWIN\n"; 
         }
@@ -688,7 +688,7 @@ function EstimateForm(props){
         if(countValues['futon'] !== undefined && isNaN(countValues['futon']) == false){
             futon = countValues['futon'];
         }else{futon = 0;}
-        console.log("futon: "+futon); 
+        //console.log("futon: "+futon); 
         if(futon != 0 ){
             plaintext = plaintext + futon + "x\tFuton\n"; 
         }
@@ -698,7 +698,7 @@ function EstimateForm(props){
         if(countValues['crib'] !== undefined && isNaN(countValues['crib']) == false){
             crib = countValues['crib'];
         }else{crib = 0;}
-        console.log("crib: "+crib); 
+        //console.log("crib: "+crib); 
         if(crib != 0 ){
             plaintext = plaintext + crib + "x\tcrib\n"; 
         }
@@ -708,7 +708,7 @@ function EstimateForm(props){
         if(countValues['boxSpring'] !== undefined && isNaN(countValues['boxSpring']) == false){
             boxSpring = countValues['boxSpring'];
         }else{boxSpring = 0;}
-        console.log("boxSpring: "+boxSpring); 
+        //console.log("boxSpring: "+boxSpring); 
         if(boxSpring != 0 ){
             plaintext = plaintext + boxSpring + "x\tBoxspring\n"; 
         }
@@ -718,7 +718,7 @@ function EstimateForm(props){
         if(countValues['armoire'] !== undefined && isNaN(countValues['armoire']) == false){
             armoire = countValues['armoire'];
         }else{armoire = 0;}
-        console.log("armoire: "+armoire); 
+        //console.log("armoire: "+armoire); 
         if(armoire != 0 ){
             plaintext = plaintext + armoire + "x\tArmoire\n"; 
         }
@@ -728,7 +728,7 @@ function EstimateForm(props){
         if(countValues['dresser'] !== undefined && isNaN(countValues['dresser']) == false){
             dresser = countValues['dresser'];
         }else{dresser = 0;}
-        console.log("dresser: "+dresser); 
+        //console.log("dresser: "+dresser); 
         if(dresser != 0 ){
             plaintext = plaintext + dresser + "x\tDresser\n";
         }
@@ -738,7 +738,7 @@ function EstimateForm(props){
         if(countValues['nightstand'] !== undefined && isNaN(countValues['nightstand']) == false){
             nightstand = countValues['nightstand'];
         }else{nightstand = 0;}
-        console.log("nightstand: "+nightstand); 
+        //console.log("nightstand: "+nightstand); 
         if(nightstand != 0 ){
             plaintext = plaintext + nightstand + "x\tNightstand\n";
         }
@@ -747,7 +747,7 @@ function EstimateForm(props){
         if(countValues['trunk'] !== undefined && isNaN(countValues['trunk']) == false){
             trunk = countValues['trunk'];
         }else{trunk = 0;}
-        console.log("trunk: "+trunk); 
+        //console.log("trunk: "+trunk); 
         if(trunk != 0 ){
             plaintext = plaintext + trunk + "x\tTrunk\n";
         }
@@ -757,7 +757,7 @@ function EstimateForm(props){
         if(countValues['mirrors'] !== undefined && isNaN(countValues['mirrors']) == false){
             mirrors = countValues['mirrors'];
         }else{mirrors = 0;}
-        console.log("mirrors: "+mirrors); 
+        //console.log("mirrors: "+mirrors); 
         if(mirrors !=  0 ){
             plaintext = plaintext + mirrors + "x\tMirrors\n";
         }
@@ -767,7 +767,7 @@ function EstimateForm(props){
         if(countValues['stool'] !== undefined && isNaN(countValues['stool']) == false){
             stool = countValues['stool'];
         }else{stool = 0;}
-        console.log("stool: "+stool); 
+        //console.log("stool: "+stool); 
         if(stool !=  0 ){
             plaintext = plaintext + stool + "x\tBarstools\n";
         }
@@ -776,7 +776,7 @@ function EstimateForm(props){
         if(countValues['cabinetWood'] !== undefined && isNaN(countValues['cabinetWood']) == false){
             cabinetWood = countValues['cabinetWood'];
         }else{cabinetWood = 0;}
-        console.log("cabinetWood: "+cabinetWood); 
+        //console.log("cabinetWood: "+cabinetWood); 
         if(cabinetWood !=  0 ){
             plaintext = plaintext + cabinetWood + "x\tWood Cabinet\n";
         }
@@ -785,7 +785,7 @@ function EstimateForm(props){
         if(countValues['barCart'] !== undefined && isNaN(countValues['barCart']) == false){
             barCart = countValues['barCart'];
         }else{barCart = 0;}
-        console.log("barCart: "+barCart); 
+        //console.log("barCart: "+barCart); 
         if(barCart != 0 ){
             plaintext = plaintext + barCart + "x\tBar Cart\n";
         }
@@ -794,7 +794,7 @@ function EstimateForm(props){
         if(countValues['iron'] !== undefined && isNaN(countValues['iron']) == false){
             iron = countValues['iron'];
         }else{iron = 0;}
-        console.log("iron: "+iron); 
+        //console.log("iron: "+iron); 
         if(iron != 0 ){
             plaintext = plaintext + iron + "x\tIroning Board\n";
         }
@@ -804,7 +804,7 @@ function EstimateForm(props){
         if(countValues['miniFridge'] !== undefined && isNaN(countValues['miniFridge']) == false){
             miniFridge = countValues['miniFridge'];
         }else{miniFridge = 0;}
-        console.log("miniFridge: "+miniFridge); 
+        //console.log("miniFridge: "+miniFridge); 
         if(miniFridge != 0 ){
             plaintext = plaintext + miniFridge + "x\tMini Fridge/Wine Cooler\n";
         }
@@ -813,7 +813,7 @@ function EstimateForm(props){
         if(countValues['appCounter'] !== undefined && isNaN(countValues['appCounter']) == false){
             appCounter = countValues['appCounter'];
         }else{appCounter = 0;}
-        console.log("appCounter: "+appCounter); 
+        //console.log("appCounter: "+appCounter); 
         if(appCounter != 0 ){
             plaintext = plaintext + appCounter + "x\tCountertop Appliance\n";
         }
@@ -822,7 +822,7 @@ function EstimateForm(props){
         if(countValues['kitchenTable'] !== undefined && isNaN(countValues['kitchenTable']) == false){
             kitchenTable = countValues['kitchenTable'];
         }else{kitchenTable = 0;}
-        console.log("kitchenTable: "+kitchenTable); 
+        //console.log("kitchenTable: "+kitchenTable); 
         if(kitchenTable != 0 ){
             plaintext = plaintext + kitchenTable + "x\tKitchen Table\n";
         }
@@ -831,7 +831,7 @@ function EstimateForm(props){
         if(countValues['vaccuum'] !== undefined && isNaN(countValues['vaccuum']) == false){
             vaccuum = countValues['vaccuum'];
         }else{vaccuum = 0;}
-        console.log("vaccuum: "+vaccuum); 
+        //console.log("vaccuum: "+vaccuum); 
         if(vaccuum != 0 ){
             plaintext = plaintext + vaccuum + "x\tVaccuum\n";
         }
@@ -842,7 +842,7 @@ function EstimateForm(props){
         if(countValues['sideTable'] !== undefined && isNaN(countValues['sideTable']) == false){
             sideTable = countValues['sideTable'];
         }else{sideTable = 0;}
-        console.log("sideTable: "+sideTable); 
+        //console.log("sideTable: "+sideTable); 
         if(sideTable != 0 ){
             plaintext = plaintext + sideTable + "x\tSide Table\n";
         }
@@ -851,7 +851,7 @@ function EstimateForm(props){
         if(countValues['desk'] !== undefined && isNaN(countValues['desk']) == false){
             desk = countValues['desk'];
         }else{desk = 0;}
-        console.log("desk: "+desk); 
+        //console.log("desk: "+desk); 
         if(desk != 0 ){
             plaintext = plaintext + desk + "x\tDesk\n";
         }
@@ -860,7 +860,7 @@ function EstimateForm(props){
         if(countValues['deskAss'] !== undefined && isNaN(countValues['deskAss']) == false){
             deskAss = countValues['deskAss'];
         }else{deskAss = 0;}
-        console.log("deskAss: "+deskAss); 
+        //console.log("deskAss: "+deskAss); 
         if(deskAss != 0 ){
             plaintext = plaintext + deskAss + "x\tDesk & Assembly\n";
         }
@@ -869,7 +869,7 @@ function EstimateForm(props){
         if(countValues['fileCabinet'] !== undefined && isNaN(countValues['fileCabinet']) == false){
             fileCabinet = countValues['fileCabinet'];
         }else{fileCabinet = 0;}
-        console.log("fileCabinet: "+fileCabinet); 
+        //console.log("fileCabinet: "+fileCabinet); 
         if(fileCabinet != 0 ){
             plaintext = plaintext + fileCabinet + "x\tFile Cabinet\n";
         }
@@ -879,7 +879,7 @@ function EstimateForm(props){
         if(countValues['pc'] !== undefined && isNaN(countValues['pc']) == false){
             pc = countValues['pc'];
         }else{pc = 0;}
-        console.log("pc: "+pc); 
+        //console.log("pc: "+pc); 
         if(pc != 0 ){
             plaintext = plaintext + pc + "x\tComputer\n";
         }
@@ -888,7 +888,7 @@ function EstimateForm(props){
         if(countValues['printer'] !== undefined && isNaN(countValues['printer']) == false){
             printer = countValues['printer'];
         }else{printer = 0;}
-        console.log("printer: "+printer); 
+        //console.log("printer: "+printer); 
         if(printer != 0 ){
             plaintext = plaintext + printer + "x\tPrinter\n";
         }
@@ -898,7 +898,7 @@ function EstimateForm(props){
         if(countValues['officeChair'] !== undefined && isNaN(countValues['officeChair']) == false){
             officeChair = countValues['officeChair'];
         }else{officeChair = 0;}
-        console.log("officeChair: "+officeChair); 
+        //console.log("officeChair: "+officeChair); 
         if(officeChair != 0 ){
             plaintext = plaintext + officeChair + "x\tOffice Chair\n";
         }
@@ -907,7 +907,7 @@ function EstimateForm(props){
         if(countValues['bbq'] !== undefined && isNaN(countValues['bbq']) == false){
             bbq = countValues['bbq'];
         }else{bbq = 0;}
-        console.log("bbq: "+bbq); 
+        //console.log("bbq: "+bbq); 
         if(bbq != 0 ){
             plaintext = plaintext + bbq + "x\tBBQ\n";
         }
@@ -917,7 +917,7 @@ function EstimateForm(props){
         if(countValues['bike'] !== undefined && isNaN(countValues['bike']) == false){
             bike = countValues['bike'];
         }else{bike = 0;}
-        console.log("bike: "+bike); 
+        //console.log("bike: "+bike); 
         if(bike != 0 ){
             plaintext = plaintext + bike + "x\tBicycles\n";
         }
@@ -926,7 +926,7 @@ function EstimateForm(props){
         if(countValues['deckBox'] !== undefined && isNaN(countValues['deckBox']) == false){
             deckBox = countValues['deckBox'];
         }else{deckBox = 0;}
-        console.log("deckBox: "+deckBox); 
+        //console.log("deckBox: "+deckBox); 
         if(deckBox != 0 ){
             plaintext = plaintext + deckBox + "x\tDeckbox\n";
         }
@@ -935,7 +935,7 @@ function EstimateForm(props){
         if(countValues['equipment'] !== undefined && isNaN(countValues['equipment']) == false){
             equipment = countValues['equipment'];
         }else{equipment = 0;}
-        console.log("equipment: "+equipment); 
+        //console.log("equipment: "+equipment); 
         if(equipment !=  0 ){
             plaintext = plaintext + equipment + "x\tOutdoor Equipment\n";
         }
@@ -945,7 +945,7 @@ function EstimateForm(props){
         if(countValues['firepit'] !== undefined && isNaN(countValues['firepit']) == false){
             firepit = countValues['firepit'];
         }else{firepit = 0;}
-        console.log("firepit: "+firepit); 
+        //console.log("firepit: "+firepit); 
         if(firepit !=  0 ){
             plaintext = plaintext + firepit + "x\tFirepit\n";
         }
@@ -955,7 +955,7 @@ function EstimateForm(props){
         if(countValues['toy'] !== undefined && isNaN(countValues['toy']) == false){
             toy = countValues['toy'];
         }else{toy = 0;}
-        console.log("toy: "+toy); 
+        //console.log("toy: "+toy); 
         if(toy !=  0 ){
             plaintext = plaintext + toy + "x\tToy\n";
         }
@@ -964,7 +964,7 @@ function EstimateForm(props){
         if(countValues['pot'] !== undefined && isNaN(countValues['pot']) == false){
             pot = countValues['pot'];
         }else{pot = 0;}
-        console.log("pot: "+pot); 
+        //console.log("pot: "+pot); 
         if(pot != 0 ){
             plaintext = plaintext + pot + "x\tPotters\n";
         }
@@ -974,7 +974,7 @@ function EstimateForm(props){
         if(countValues['umbrella'] !== undefined && isNaN(countValues['umbrella']) == false){
             umbrella = countValues['umbrella'];
         }else{umbrella = 0;}
-        console.log("umbrella: "+umbrella); 
+        //console.log("umbrella: "+umbrella); 
         if(umbrella != 0 ){
             plaintext = plaintext + umbrella + "x\tUmbrella\n";
         }
@@ -983,7 +983,7 @@ function EstimateForm(props){
         if(countValues['outTable'] !== undefined && isNaN(countValues['outTable']) == false){
             outTable = countValues['outTable'];
         }else{outTable = 0;}
-        console.log("outTable: "+outTable); 
+        //console.log("outTable: "+outTable); 
         if(outTable != 0 ){
             plaintext = plaintext + outTable + "x\tPatio Table\n";
         }
@@ -993,7 +993,7 @@ function EstimateForm(props){
         if(countValues['outChair'] !== undefined && isNaN(countValues['outChair']) == false){
             outChair = countValues['outChair'];
         }else{outChair = 0;}
-        console.log("outChair: "+outChair); 
+        //console.log("outChair: "+outChair); 
         if(outChair != 0 ){
             plaintext = plaintext + outChair + "x\tPatio Chair\n";
         }
@@ -1003,7 +1003,7 @@ function EstimateForm(props){
         if(countValues['adr'] !== undefined && isNaN(countValues['adr']) == false){
             adr = countValues['adr'];
         }else{adr = 0;}
-        console.log("adr: "+adr); 
+        //console.log("adr: "+adr); 
         if(adr != 0 ){
             plaintext = plaintext + adr + "x\tAdriondack\n";
         }
@@ -1012,7 +1012,7 @@ function EstimateForm(props){
         if(countValues['outLove'] !== undefined && isNaN(countValues['outLove']) == false){
             outLove = countValues['outLove'];
         }else{outLove = 0;}
-        console.log("outLove: "+outLove); 
+        //console.log("outLove: "+outLove); 
         if(outLove != 0 ){
             plaintext = plaintext + outLove + "x\tOutDoor Loveseat\n";
         }
@@ -1022,7 +1022,7 @@ function EstimateForm(props){
         if(countValues['exbike'] !== undefined && isNaN(countValues['exbike']) == false){
             exbike = countValues['exbike'];
         }else{exbike = 0;}
-        console.log("exbike: "+exbike); 
+        //console.log("exbike: "+exbike); 
         if(exbike != 0 ){
             plaintext = plaintext + exbike + "x\tExercise Bike\n";
         }
@@ -1031,7 +1031,7 @@ function EstimateForm(props){
         if(countValues['exStation'] !== undefined && isNaN(countValues['exStation']) == false){
             exStation = countValues['exStation'];
         }else{exStation = 0;}
-        console.log("exStation: "+exStation); 
+        //console.log("exStation: "+exStation); 
         if(exStation != 0 ){
             plaintext = plaintext + exStation + "x\tExercise Station\n";
         }
@@ -1041,7 +1041,7 @@ function EstimateForm(props){
         if(countValues['treadmill'] !== undefined && isNaN(countValues['treadmill']) == false){
             treadmill = countValues['treadmill'];
         }else{treadmill = 0;}
-        console.log("treadmill: "+treadmill); 
+        //console.log("treadmill: "+treadmill); 
         if(treadmill != 0 ){
             plaintext = plaintext + treadmill + "x\tTreadmill\n";
         }
@@ -1050,7 +1050,7 @@ function EstimateForm(props){
         if(countValues['fridge'] !== undefined && isNaN(countValues['fridge']) == false){
             fridge = countValues['fridge'];
         }else{fridge = 0;}
-        console.log("fridge: "+fridge); 
+        //console.log("fridge: "+fridge); 
         if(fridge != 0 ){
             plaintext = plaintext + fridge + "x\tFridge/Freezer\n";
         }
@@ -1060,7 +1060,7 @@ function EstimateForm(props){
         if(countValues['deepFreeze'] !== undefined && isNaN(countValues['deepFreeze']) == false){
             deepFreeze = countValues['deepFreeze'];
         }else{deepFreeze = 0;}
-        console.log("deepFreeze: "+deepFreeze); 
+        //console.log("deepFreeze: "+deepFreeze); 
         if(deepFreeze != 0 ){
             plaintext = plaintext + deepFreeze + "x\tDeep Freeze\n";
         }
@@ -1069,7 +1069,7 @@ function EstimateForm(props){
         if(countValues['ladder'] !== undefined && isNaN(countValues['ladder']) == false){
             ladder = countValues['ladder'];
         }else{ladder = 0;}
-        console.log("ladder: "+ladder); 
+        //console.log("ladder: "+ladder); 
         if(ladder != 0 ){
             plaintext = plaintext + ladder + "x\tLadder\n";
         }
@@ -1078,7 +1078,7 @@ function EstimateForm(props){
         if(countValues['storage'] !== undefined && isNaN(countValues['storage']) == false){
             storage = countValues['storage'];
         }else{storage = 0;}
-        console.log("storage: "+storage); 
+        //console.log("storage: "+storage); 
         if(storage != 0 ){
             plaintext = plaintext + storage + "x\tStorage Rack\n";
         }
@@ -1088,7 +1088,7 @@ function EstimateForm(props){
         if(countValues['toolChest'] !== undefined && isNaN(countValues['toolChest']) == false){
             toolChest = countValues['toolChest'];
         }else{toolChest = 0;}
-        console.log("toolChest: "+toolChest); 
+        //console.log("toolChest: "+toolChest); 
         if(toolChest != 0 ){
             plaintext = plaintext + toolChest + "x\tTool Chest\n";
         }
@@ -1097,7 +1097,7 @@ function EstimateForm(props){
         if(countValues['tools'] !== undefined && isNaN(countValues['tools']) == false){
             tools = countValues['tools'];
         }else{tools = 0;}
-        console.log("tools: "+tools); 
+        //console.log("tools: "+tools); 
         if(tools != 0 ){
             plaintext = plaintext + tools + "x\tGarden Tools\n";
         }
@@ -1107,7 +1107,7 @@ function EstimateForm(props){
         if(countValues['tires'] !== undefined && isNaN(countValues['tires']) == false){
             tires = countValues['tires'];
         }else{tires = 0;}
-        console.log("tires: "+tires); 
+        //console.log("tires: "+tires); 
         if(tires != 0 ){
             plaintext = plaintext + tires + "x\tTires\n";
         }
@@ -1116,7 +1116,7 @@ function EstimateForm(props){
         if(countValues['weight'] !== undefined && isNaN(countValues['weight']) == false){
             weight = countValues['weight'];
         }else{weight = 0;}
-        console.log("weight: "+weight); 
+        //console.log("weight: "+weight); 
         if(weight != 0 ){
             plaintext = plaintext + weight + "x\tWeight Set\n";
         }
@@ -1126,7 +1126,7 @@ function EstimateForm(props){
         if(countValues['box'] !== undefined && isNaN(countValues['box']) == false){
             box = countValues['box'];
         }else{box = 0;}
-        console.log("box: "+box);
+        //console.log("box: "+box);
         if(box != 0 ){
             plaintext = plaintext + box + "x\tBoxes/Bins\n";
         } 
@@ -1136,7 +1136,7 @@ function EstimateForm(props){
         if(countValues['boxL'] !== undefined && isNaN(countValues['boxL']) == false){
             boxL = countValues['boxL'];
         }else{boxL = 0;}
-        console.log("boxL: "+boxL); 
+        //console.log("boxL: "+boxL); 
         if(boxL != 0 ){
             plaintext = plaintext + boxL + "x\tLarge Totes\n";
         }
@@ -1145,7 +1145,7 @@ function EstimateForm(props){
         if(countValues['ac'] !== undefined && isNaN(countValues['ac']) == false){
             ac = countValues['ac'];
         }else{ac = 0;}
-        console.log("ac: "+ac); 
+        //console.log("ac: "+ac); 
         if(ac != 0 ){
             plaintext = plaintext + ac + "x\tAC/Heater\n";
         }
@@ -1155,7 +1155,7 @@ function EstimateForm(props){
         if(countValues['coatRack'] !== undefined && isNaN(countValues['coatRack']) == false){
             coatRack = countValues['coatRack'];
         }else{coatRack = 0;}
-        console.log("coatRack: "+coatRack); 
+        //console.log("coatRack: "+coatRack); 
         if(coatRack != 0 ){
             plaintext = plaintext + coatRack + "x\tCoat Rack\n";
         }
@@ -1164,7 +1164,7 @@ function EstimateForm(props){
         if(countValues['deco'] !== undefined && isNaN(countValues['deco']) == false){
             deco = countValues['deco'];
         }else{deco = 0;}
-        console.log("deco: "+deco); 
+        //console.log("deco: "+deco); 
         if(deco != 0 ){
             plaintext = plaintext + deco + "x\tDecoration/Statue\n";
         }
@@ -1174,7 +1174,7 @@ function EstimateForm(props){
         if(countValues['fan'] !== undefined && isNaN(countValues['fan']) == false){
             fan = countValues['fan'];
         }else{fan = 0;}
-        console.log("fan: "+fan); 
+        //console.log("fan: "+fan); 
         if(fan != 0 ){
             plaintext = plaintext + fan + "x\tFan\n";
         }
@@ -1183,7 +1183,7 @@ function EstimateForm(props){
         if(countValues['suitcase'] !== undefined && isNaN(countValues['suitcase']) == false){
             suitcase = countValues['suitcase'];
         }else{suitcase = 0;}
-        console.log("suitcase: "+suitcase); 
+        //console.log("suitcase: "+suitcase); 
         if(suitcase != 0 ){
             plaintext = plaintext + suitcase + "x\tSuitcase\n";
         }
@@ -1192,7 +1192,7 @@ function EstimateForm(props){
         if(countValues['piano'] !== undefined && isNaN(countValues['piano']) == false){
             piano = countValues['piano'];
         }else{piano = 0;}
-        console.log("piano: "+piano); 
+        //console.log("piano: "+piano); 
         if(piano != 0 ){
             plaintext = plaintext + piano + "x\tApartment Piano\n";
         }
@@ -1202,7 +1202,7 @@ function EstimateForm(props){
         if(countValues['upPiano'] !== undefined && isNaN(countValues['upPiano']) == false){
             upPiano = countValues['upPiano'];
         }else{upPiano = 0;}
-        console.log("upPiano: "+upPiano); 
+        //console.log("upPiano: "+upPiano); 
         if(upPiano != 0 ){
             plaintext = plaintext + upPiano + "x\tUpright Piano\n";
         }
@@ -1212,7 +1212,7 @@ function EstimateForm(props){
         if(countValues['pianoBaby'] !== undefined && isNaN(countValues['pc']) == false){
             pianoBaby = countValues['pianoBaby'];
         }else{pianoBaby = 0;}
-        console.log("pianoBaby: "+pianoBaby); 
+        //console.log("pianoBaby: "+pianoBaby); 
         if(pianoBaby != 0 ){
             plaintext = plaintext + pianoBaby + "x\tBaby Grand Piano\n";
         }
@@ -1221,7 +1221,7 @@ function EstimateForm(props){
         if(countValues['keyboard'] !== undefined && isNaN(countValues['keyboard']) == false){
             keyboard = countValues['keyboard'];
         }else{keyboard = 0;}
-        console.log("keyboard: "+keyboard); 
+        //console.log("keyboard: "+keyboard); 
         if(keyboard != 0 ){
             plaintext = plaintext + keyboard + "x\tKeyboard\n";
         }
@@ -1231,7 +1231,7 @@ function EstimateForm(props){
         if(countValues['drum'] !== undefined && isNaN(countValues['drum']) == false){
             drum = countValues['drum'];
         }else{drum = 0;}
-        console.log("drum: "+drum); 
+        //console.log("drum: "+drum); 
         if(drum != 0 ){
             plaintext = plaintext + drum + "x\tDrumset/Instrument\n";
         }
@@ -1240,7 +1240,7 @@ function EstimateForm(props){
         if(countValues['guitar'] !== undefined && isNaN(countValues['guitar']) == false){
             guitar = countValues['guitar'];
         }else{guitar = 0;}
-        console.log("guitar: "+guitar); 
+        //console.log("guitar: "+guitar); 
         if(guitar != 0 ){
             plaintext = plaintext + guitar + "x\tGuitar\n";
         }
@@ -1250,7 +1250,7 @@ function EstimateForm(props){
         if(countValues['speaker'] !== undefined && isNaN(countValues['speaker']) == false){
             speaker = countValues['speaker'];
         }else{speaker = 0;}
-        console.log("speaker: "+speaker); 
+        //console.log("speaker: "+speaker); 
         if(speaker != 0 ){
             plaintext = plaintext + speaker + "x\tSpeakers/Amps\n";
         }
@@ -1259,7 +1259,7 @@ function EstimateForm(props){
         if(countValues['cat'] !== undefined && isNaN(countValues['cat']) == false){
             cat = countValues['cat'];
         }else{cat = 0;}
-        console.log("cat: "+cat); 
+        //console.log("cat: "+cat); 
         if(cat != 0 ){
             plaintext = plaintext + cat + "x\tCatscartch\n";
         }
@@ -1268,7 +1268,7 @@ function EstimateForm(props){
         if(countValues['obese'] !== undefined && isNaN(countValues['obese']) == false){
             obese = countValues['obese'];
         }else{obese = 0;}
-        console.log("obese: "+obese); 
+        //console.log("obese: "+obese); 
         if(obese != 0 ){
             plaintext = plaintext + obese + "x\tOversized Item\n";
         }
@@ -1277,7 +1277,7 @@ function EstimateForm(props){
         if(countValues['misc'] !== undefined && isNaN(countValues['misc']) == false){
             misc = countValues['misc'];
         }else{misc = 0;}
-        console.log("misc: "+misc); 
+        //console.log("misc: "+misc); 
         if(misc != 0 ){
             plaintext = plaintext + misc + "x\tMiscellaneous Item\n";
         }
@@ -1286,7 +1286,7 @@ function EstimateForm(props){
         if(countValues['assS'] !== undefined && isNaN(countValues['assS']) == false){
             assS = countValues['assS'];
         }else{assS = 0;}
-        console.log("assS: "+assS); 
+        //console.log("assS: "+assS); 
         if(assS != 0 ){
             plaintext = plaintext + assS + "x\tAssembly SMALL\n";
         }
@@ -1296,7 +1296,7 @@ function EstimateForm(props){
         if(countValues['assM'] !== undefined && isNaN(countValues['assM']) == false){
             assM = countValues['assM'];
         }else{assM = 0;}
-        console.log("assM: "+assM); 
+        //console.log("assM: "+assM); 
         if(assM != 0 ){
             plaintext = plaintext + assM + "x\tAssembly MEDIUM\n";
         }
@@ -1305,7 +1305,7 @@ function EstimateForm(props){
         if(countValues['assL'] !== undefined && isNaN(countValues['assL']) == false){
             assL = countValues['assL'];
         }else{assL = 0;}
-        console.log("assL: "+assL);
+        //console.log("assL: "+assL);
         if(assL != 0 ){
             plaintext = plaintext + assL + "x\tAssembly LARGE\n";
         } 
@@ -1339,7 +1339,7 @@ function EstimateForm(props){
         if(countValues['junkMatt'] !== undefined && isNaN(countValues['junkMatt']) == false){
             junkMatt = countValues['junkMatt'];
         }else{junkMatt = 0;}
-        console.log("junkMatt: "+junkMatt); 
+        //console.log("junkMatt: "+junkMatt); 
         if(junkMatt != 0 ){
             plaintext = plaintext + junkMatt + "x\tJUNK Mattress\n";
         }
@@ -1348,7 +1348,7 @@ function EstimateForm(props){
         if(countValues['otherJunk'] !== undefined && isNaN(countValues['otherJunk']) == false){
             otherJunk = countValues['otherJunk'];
         }else{otherJunk = 0;}
-        console.log("otherJunk: "+otherJunk);
+        //console.log("otherJunk: "+otherJunk);
         if(otherJunk != 0 ){
             plaintext = plaintext+ "JUNK Miscellaneous Item: $" + otherJunk + "\n";
         }
@@ -1358,7 +1358,7 @@ function EstimateForm(props){
         if(countValues['paper'] !== undefined && isNaN(countValues['paper']) == false){
             paper = countValues['paper'];
         }else{paper = 0;}
-        console.log("paper: "+paper); 
+        //console.log("paper: "+paper); 
         if(paper != 0 ){
             plaintext = plaintext + paper + "x\tSUPPLIES Paper\n";
         }
@@ -1367,7 +1367,7 @@ function EstimateForm(props){
         if(countValues['bubble'] !== undefined && isNaN(countValues['bubble']) == false){
             bubble = countValues['bubble'];
         }else{bubble = 0;}
-        console.log("bubble: "+bubble); 
+        //console.log("bubble: "+bubble); 
         if(bubble != 0 ){
             plaintext = plaintext + bubble + "x\tSUPPLIES Bubblewrap\n";
         }
@@ -1376,7 +1376,7 @@ function EstimateForm(props){
         if(countValues['cardB'] !== undefined && isNaN(countValues['cardB']) == false){
             cardB = countValues['cardB'];
         }else{cardB = 0;}
-        console.log("cardB: "+cardB); 
+        //console.log("cardB: "+cardB); 
         if(cardB != 0 ){
             plaintext = plaintext + cardB + "x\tSUPPLIES Cardboard Box\n";
         }
@@ -1385,7 +1385,7 @@ function EstimateForm(props){
         if(countValues['wardB'] !== undefined && isNaN(countValues['wardB']) == false){
             wardB = countValues['wardB'];
         }else{wardB = 0;}
-        console.log("wardB: "+wardB); 
+        //console.log("wardB: "+wardB); 
         if(wardB != 0 ){
             plaintext = plaintext + wardB + "x\tSUPPLIES Wardrobe Box\n";
         }
@@ -1534,7 +1534,7 @@ function EstimateForm(props){
             plaintext = plaintext + "Updated by: "+updatedBy + "\n";
         }
         
-        console.log(plaintext);
+        //console.log(plaintext);
         
 
         //post here
@@ -1702,7 +1702,7 @@ function EstimateForm(props){
 
         }
         catch(e){
-            console.log(e);
+            //console.log(e);
         }
     
     };

@@ -445,7 +445,7 @@ function EditForm(){
         if(countValues['armchair'] !== undefined && isNaN(countValues['armchair']) == false){           // check if box is undefined
             armchair = countValues['armchair'];                                                         //set value of varibale to match the value of box
         }                                                                           // if variable is undefined, set value to 0
-        console.log("Arm Chair: "+armchair); 
+        //console.log("Arm Chair: "+armchair); 
         if(armchair !== 0){
             plaintext = plaintext + armchair + "x\tArm Chair\n";                                      //if value isnt 0, append to plaintext
         }
@@ -454,7 +454,7 @@ function EditForm(){
         if(countValues['art'] !== undefined && isNaN(countValues['art']) == false){
             art = countValues['art'];
         }
-        console.log("art: "+art); 
+        //console.log("art: "+art); 
         if(art != 0 ){
             plaintext = plaintext + art + "x\tArtwork\n";   
         }
@@ -464,7 +464,7 @@ function EditForm(){
         if(countValues['bench'] !== undefined && isNaN(countValues['bench']) == false){
             bench = countValues['bench'];
         }
-        console.log("bench: "+bench); 
+        //console.log("bench: "+bench); 
         if(bench !== 0 ){
             plaintext = plaintext + bench + "x\tBench\n";   
         }
@@ -473,7 +473,7 @@ function EditForm(){
         if(countValues['bookshelf'] !== undefined && isNaN(countValues['bookshelf']) == false){
             bookshelf = countValues['bookshelf'];
         }
-        console.log("bookshelf: "+bookshelf); 
+        //console.log("bookshelf: "+bookshelf); 
         if(bookshelf !== 0 ){
             plaintext = plaintext + bookshelf + "x\tBookshelf\n"; 
         }
@@ -482,7 +482,7 @@ function EditForm(){
         if(countValues['chairs'] !== undefined && isNaN(countValues['chairs']) == false){
             chairs = countValues['chairs'];
         }
-        console.log("chairs: "+chairs); 
+        //console.log("chairs: "+chairs); 
         if(chairs != 0 ){
             plaintext = plaintext + chairs + "x\tChair\n"; 
         }
@@ -492,7 +492,7 @@ function EditForm(){
             credenza = countValues['credenza'];
         }
 
-        console.log("credenza: "+credenza); 
+        //console.log("credenza: "+credenza); 
         if(credenza !== undefined && credenza !== null && credenza !==0 ){
             plaintext = plaintext + credenza + "x\tCredenza\n"; 
         }
@@ -503,7 +503,7 @@ function EditForm(){
             chinaCab = countValues['chinaCab'];
         }
 
-        console.log("chinaCab: "+chinaCab); 
+        //console.log("chinaCab: "+chinaCab); 
         if(chinaCab != 0 ){
             plaintext = plaintext + chinaCab + "x\tChina Cabinet\n"; 
         }
@@ -513,7 +513,7 @@ function EditForm(){
             coffeeTable = countValues['coffeeTable'];
         }
 
-        console.log("coffeeTable: "+coffeeTable); 
+        //console.log("coffeeTable: "+coffeeTable); 
         if(coffeeTable != 0 ){
             plaintext = plaintext + coffeeTable + "x\tCoffee Table\n"; 
         }
@@ -522,7 +522,7 @@ function EditForm(){
         if(countValues['coffeeTableL'] !== undefined && isNaN(countValues['coffeeTableL']) == false){
             coffeeTableL = countValues['coffeeTableL'];
         }
-        console.log("coffeeTableL: "+coffeeTableL); 
+        //console.log("coffeeTableL: "+coffeeTableL); 
         if(coffeeTableL != 0 ){
             plaintext = plaintext + coffeeTableL + "x\tCoffee Table (Large)\n"; 
         }
@@ -532,7 +532,7 @@ function EditForm(){
         if(countValues['glassTop'] !== undefined && isNaN(countValues['glassTop']) == false){
             glassTop = countValues['glassTop'];
         }
-        console.log("glassTop: "+glassTop); 
+        //console.log("glassTop: "+glassTop); 
         if(glassTop != 0 ){
             plaintext = plaintext + glassTop + "x\tGlass Table Top\n"; 
         }
@@ -543,7 +543,7 @@ function EditForm(){
         if(countValues['diningTable'] !== undefined && isNaN(countValues['diningTable']) == false){
             diningTable = countValues['diningTable'];
         }
-        console.log("diningTable: "+diningTable); 
+        //console.log("diningTable: "+diningTable); 
         if(diningTable != 0 ){
             plaintext = plaintext + diningTable + "x\tDining Table\n"; 
         }
@@ -554,7 +554,7 @@ function EditForm(){
         if(countValues['diningTableAss'] !== undefined && isNaN(countValues['diningTableAss']) == false){
             diningTableAss = countValues['diningTableAss'];
         }
-        console.log("diningTableAss: "+diningTableAss); 
+        //console.log("diningTableAss: "+diningTableAss); 
         if(diningTableAss != 0 ){
             plaintext = plaintext + diningTableAss + "x\tDining Table & Assembly\n"; 
         }
@@ -564,7 +564,7 @@ function EditForm(){
         if(countValues['entertainment'] !== undefined && isNaN(countValues['entertainment']) == false){
             entertainment = countValues['entertainment'];
         }
-        console.log("entertainment: "+entertainment); 
+        //console.log("entertainment: "+entertainment); 
         if(entertainment != 0 ){
             plaintext = plaintext + entertainment + "x\tEntertainment Unit\n"; 
         }
@@ -573,7 +573,7 @@ function EditForm(){
         if(countValues['tv'] !== undefined && isNaN(countValues['tv']) == false){
             tv = countValues['tv'];
         }
-        console.log("tv: "+tv); 
+        //console.log("tv: "+tv); 
         if(tv != 0 ){
             plaintext = plaintext + tv + "x\tTV\n"; 
         }
@@ -583,7 +583,7 @@ function EditForm(){
         if(countValues['loveseat'] !== undefined && isNaN(countValues['loveseat']) == false){
             loveseat = countValues['loveseat'];
         }
-        console.log("loveseat: "+loveseat); 
+        //console.log("loveseat: "+loveseat); 
         if(loveseat != 0 ){
             plaintext = plaintext + loveseat + "x\tLoveseat\n"; 
         }
@@ -592,7 +592,7 @@ function EditForm(){
         if(countValues['ottoman'] !== undefined && isNaN(countValues['ottoman']) == false){
             ottoman = countValues['ottoman'];
         }
-        console.log("ottoman: "+ottoman); 
+        //console.log("ottoman: "+ottoman); 
         if(ottoman != 0 ){
             plaintext = plaintext + ottoman + "x\tOttoman\n"; 
         }
@@ -601,7 +601,7 @@ function EditForm(){
         if(countValues['rugs'] !== undefined && isNaN(countValues['rugs']) == false){
             rugs = countValues['rugs'];
         }
-        console.log("rugs: "+rugs); 
+        //console.log("rugs: "+rugs); 
         if(rugs != 0 ){
             plaintext = plaintext + rugs + "x\tRugs\n"; 
         }
@@ -610,7 +610,7 @@ function EditForm(){
         if(countValues['beanBag'] !== undefined && isNaN(countValues['beanBag']) == false){
             beanBag = countValues['beanBag'];
         }
-        console.log("beanBag: "+beanBag); 
+        //console.log("beanBag: "+beanBag); 
         if(beanBag != 0 ){
             plaintext = plaintext + beanBag + "x\tBean Bag Chair\n"; 
         }
@@ -619,7 +619,7 @@ function EditForm(){
         if(countValues['sofa'] !== undefined && isNaN(countValues['sofa']) == false){
             sofa = countValues['sofa'];
         }
-        console.log("sofa: "+sofa); 
+        //console.log("sofa: "+sofa); 
         if(sofa != 0 ){
             plaintext = plaintext + sofa + "x\tSofa\n"; 
         }
@@ -629,7 +629,7 @@ function EditForm(){
         if(countValues['sectional'] !== undefined && isNaN(countValues['sectional']) == false){
             sectional = countValues['sectional'];
         }
-        console.log("sectional: "+sectional); 
+        //console.log("sectional: "+sectional); 
 
         if(sectional != 0 ){
             plaintext = plaintext + sectional + "x\tSectional\n"; 
@@ -640,7 +640,7 @@ function EditForm(){
         if(countValues['lampTable'] !== undefined && isNaN(countValues['lampTable']) == false){
             lampTable = countValues['lampTable'];
         }
-        console.log("lampTable: "+lampTable); 
+        //console.log("lampTable: "+lampTable); 
         if(lampTable != 0 ){
             plaintext = plaintext + lampTable + "x\tTable Lamp\n"; 
         }
@@ -650,7 +650,7 @@ function EditForm(){
         if(countValues['lampFloor'] !== undefined && isNaN(countValues['lampFloor']) == false){
             lampFloor = countValues['lampFloor'];
         }
-        console.log("lampFloor: "+lampFloor); 
+        //console.log("lampFloor: "+lampFloor); 
         if(lampFloor != 0 ){
             plaintext = plaintext + lampFloor + "x\tFloor Lamp\n"; 
         }
@@ -659,7 +659,7 @@ function EditForm(){
         if(countValues['bedAss'] !== undefined && isNaN(countValues['bedAss']) == false){
             bedAss = countValues['bedAss'];
         }
-        console.log("bedAss: "+bedAss); 
+        //console.log("bedAss: "+bedAss); 
         if(bedAss != 0 ){
             plaintext = plaintext + bedAss + "x\tBedframe & Assembly\n"; 
         }
@@ -669,7 +669,7 @@ function EditForm(){
         if(countValues['king'] !== undefined && isNaN(countValues['king']) == false){
             king = countValues['king'];
         }
-        console.log("king: "+king); 
+        //console.log("king: "+king); 
         if(king != 0 ){
             plaintext = plaintext + king + "x\tMattress KING\n"; 
         }
@@ -679,7 +679,7 @@ function EditForm(){
         if(countValues['queen'] !== undefined && isNaN(countValues['queen']) == false){
             queen = countValues['queen'];
         }
-        console.log("queen: "+queen); 
+        //console.log("queen: "+queen); 
         if(queen != 0 ){
             plaintext = plaintext + queen + "x\tMattress QUEEN\n"; 
         }
@@ -690,7 +690,7 @@ function EditForm(){
         if(countValues['twin'] !== undefined && isNaN(countValues['twin']) == false){
             twin = countValues['twin'];
         }
-        console.log("twin: "+twin); 
+        //console.log("twin: "+twin); 
         if(twin != 0 ){
             plaintext = plaintext + twin + "x\tMattress TWIN\n"; 
         }
@@ -699,7 +699,7 @@ function EditForm(){
         if(countValues['futon'] !== undefined && isNaN(countValues['futon']) == false){
             futon = countValues['futon'];
         }
-        console.log("futon: "+futon); 
+        //console.log("futon: "+futon); 
         if(futon != 0 ){
             plaintext = plaintext + futon + "x\tFuton\n"; 
         }
@@ -709,7 +709,7 @@ function EditForm(){
         if(countValues['crib'] !== undefined && isNaN(countValues['crib']) == false){
             crib = countValues['crib'];
         }
-        console.log("crib: "+crib); 
+        //console.log("crib: "+crib); 
         if(crib != 0 ){
             plaintext = plaintext + crib + "x\tcrib\n"; 
         }
@@ -719,7 +719,7 @@ function EditForm(){
         if(countValues['boxSpring'] !== undefined && isNaN(countValues['boxSpring']) == false){
             boxSpring = countValues['boxSpring'];
         }
-        console.log("boxSpring: "+boxSpring); 
+        //console.log("boxSpring: "+boxSpring); 
         if(boxSpring != 0 ){
             plaintext = plaintext + boxSpring + "x\tBoxspring\n"; 
         }
@@ -729,7 +729,7 @@ function EditForm(){
         if(countValues['armoire'] !== undefined && isNaN(countValues['armoire']) == false){
             armoire = countValues['armoire'];
         }
-        console.log("armoire: "+armoire); 
+        //console.log("armoire: "+armoire); 
         if(armoire != 0 ){
             plaintext = plaintext + armoire + "x\tArmoire\n"; 
         }
@@ -739,7 +739,7 @@ function EditForm(){
         if(countValues['dresser'] !== undefined && isNaN(countValues['dresser']) == false){
             dresser = countValues['dresser'];
         }
-        console.log("dresser: "+dresser); 
+        //console.log("dresser: "+dresser); 
         if(dresser != 0 ){
             plaintext = plaintext + dresser + "x\tDresser\n";
         }
@@ -749,7 +749,7 @@ function EditForm(){
         if(countValues['nightstand'] !== undefined && isNaN(countValues['nightstand']) == false){
             nightstand = countValues['nightstand'];
         }
-        console.log("nightstand: "+nightstand); 
+        //console.log("nightstand: "+nightstand); 
         if(nightstand != 0 ){
             plaintext = plaintext + nightstand + "x\tNightstand\n";
         }
@@ -758,7 +758,7 @@ function EditForm(){
         if(countValues['trunk'] !== undefined && isNaN(countValues['trunk']) == false){
             trunk = countValues['trunk'];
         }
-        console.log("trunk: "+trunk); 
+        //console.log("trunk: "+trunk); 
         if(trunk != 0 ){
             plaintext = plaintext + trunk + "x\tTrunk\n";
         }
@@ -768,7 +768,7 @@ function EditForm(){
         if(countValues['mirrors'] !== undefined && isNaN(countValues['mirrors']) == false){
             mirrors = countValues['mirrors'];
         }
-        console.log("mirrors: "+mirrors); 
+        //console.log("mirrors: "+mirrors); 
         if(mirrors !=  0 ){
             plaintext = plaintext + mirrors + "x\tMirrors\n";
         }
@@ -778,7 +778,7 @@ function EditForm(){
         if(countValues['stool'] !== undefined && isNaN(countValues['stool']) == false){
             stool = countValues['stool'];
         }
-        console.log("stool: "+stool); 
+        //console.log("stool: "+stool); 
         if(stool !=  0 ){
             plaintext = plaintext + stool + "x\tBarstools\n";
         }
@@ -787,7 +787,7 @@ function EditForm(){
         if(countValues['cabinetWood'] !== undefined && isNaN(countValues['cabinetWood']) == false){
             cabinetWood = countValues['cabinetWood'];
         }
-        console.log("cabinetWood: "+cabinetWood); 
+        //console.log("cabinetWood: "+cabinetWood); 
         if(cabinetWood !=  0 ){
             plaintext = plaintext + cabinetWood + "x\tWood Cabinet\n";
         }
@@ -796,7 +796,7 @@ function EditForm(){
         if(countValues['barCart'] !== undefined && isNaN(countValues['barCart']) == false){
             barCart = countValues['barCart'];
         }
-        console.log("barCart: "+barCart); 
+        //console.log("barCart: "+barCart); 
         if(barCart != 0 ){
             plaintext = plaintext + barCart + "x\tBar Cart\n";
         }
@@ -805,7 +805,7 @@ function EditForm(){
         if(countValues['iron'] !== undefined && isNaN(countValues['iron']) == false){
             iron = countValues['iron'];
         }
-        console.log("iron: "+iron); 
+        //console.log("iron: "+iron); 
         if(iron != 0 ){
             plaintext = plaintext + iron + "x\tIroning Board\n";
         }
@@ -815,7 +815,7 @@ function EditForm(){
         if(countValues['miniFridge'] !== undefined && isNaN(countValues['miniFridge']) == false){
             miniFridge = countValues['miniFridge'];
         }
-        console.log("miniFridge: "+miniFridge); 
+        //console.log("miniFridge: "+miniFridge); 
         if(miniFridge != 0 ){
             plaintext = plaintext + miniFridge + "x\tMini Fridge/Wine Cooler\n";
         }
@@ -824,7 +824,7 @@ function EditForm(){
         if(countValues['appCounter'] !== undefined && isNaN(countValues['appCounter']) == false){
             appCounter = countValues['appCounter'];
         }
-        console.log("appCounter: "+appCounter); 
+        //console.log("appCounter: "+appCounter); 
         if(appCounter != 0 ){
             plaintext = plaintext + appCounter + "x\tCountertop Appliance\n";
         }
@@ -833,7 +833,7 @@ function EditForm(){
         if(countValues['kitchenTable'] !== undefined && isNaN(countValues['kitchenTable']) == false){
             kitchenTable = countValues['kitchenTable'];
         }
-        console.log("kitchenTable: "+kitchenTable); 
+        //console.log("kitchenTable: "+kitchenTable); 
         if(kitchenTable != 0 ){
             plaintext = plaintext + kitchenTable + "x\tKitchen Table\n";
         }
@@ -842,7 +842,7 @@ function EditForm(){
         if(countValues['vaccuum'] !== undefined && isNaN(countValues['vaccuum']) == false){
             vaccuum = countValues['vaccuum'];
         }
-        console.log("vaccuum: "+vaccuum); 
+        //console.log("vaccuum: "+vaccuum); 
         if(vaccuum != 0 ){
             plaintext = plaintext + vaccuum + "x\tVaccuum\n";
         }
@@ -853,7 +853,7 @@ function EditForm(){
         if(countValues['sideTable'] !== undefined && isNaN(countValues['sideTable']) == false){
             sideTable = countValues['sideTable'];
         }
-        console.log("sideTable: "+sideTable); 
+        //console.log("sideTable: "+sideTable); 
         if(sideTable != 0 ){
             plaintext = plaintext + sideTable + "x\tSide Table\n";
         }
@@ -862,7 +862,7 @@ function EditForm(){
         if(countValues['desk'] !== undefined && isNaN(countValues['desk']) == false){
             desk = countValues['desk'];
         }
-        console.log("desk: "+desk); 
+        //console.log("desk: "+desk); 
         if(desk != 0 ){
             plaintext = plaintext + desk + "x\tDesk\n";
         }
@@ -871,7 +871,7 @@ function EditForm(){
         if(countValues['deskAss'] !== undefined && isNaN(countValues['deskAss']) == false){
             deskAss = countValues['deskAss'];
         }
-        console.log("deskAss: "+deskAss); 
+        //console.log("deskAss: "+deskAss); 
         if(deskAss != 0 ){
             plaintext = plaintext + deskAss + "x\tDesk & Assembly\n";
         }
@@ -880,7 +880,7 @@ function EditForm(){
         if(countValues['fileCabinet'] !== undefined && isNaN(countValues['fileCabinet']) == false){
             fileCabinet = countValues['fileCabinet'];
         }
-        console.log("fileCabinet: "+fileCabinet); 
+        //console.log("fileCabinet: "+fileCabinet); 
         if(fileCabinet != 0 ){
             plaintext = plaintext + fileCabinet + "x\tFile Cabinet\n";
         }
@@ -890,7 +890,7 @@ function EditForm(){
         if(countValues['pc'] !== undefined && isNaN(countValues['pc']) == false){
             pc = countValues['pc'];
         }
-        console.log("pc: "+pc); 
+        //console.log("pc: "+pc); 
         if(pc != 0 ){
             plaintext = plaintext + pc + "x\tComputer\n";
         }
@@ -899,7 +899,7 @@ function EditForm(){
         if(countValues['printer'] !== undefined && isNaN(countValues['printer']) == false){
             printer = countValues['printer'];
         }
-        console.log("printer: "+printer); 
+        //console.log("printer: "+printer); 
         if(printer != 0 ){
             plaintext = plaintext + printer + "x\tPrinter\n";
         }
@@ -909,7 +909,7 @@ function EditForm(){
         if(countValues['officeChair'] !== undefined && isNaN(countValues['officeChair']) == false){
             officeChair = countValues['officeChair'];
         }
-        console.log("officeChair: "+officeChair); 
+        //console.log("officeChair: "+officeChair); 
         if(officeChair != 0 ){
             plaintext = plaintext + officeChair + "x\tOffice Chair\n";
         }
@@ -918,7 +918,7 @@ function EditForm(){
         if(countValues['bbq'] !== undefined && isNaN(countValues['bbq']) == false){
             bbq = countValues['bbq'];
         }
-        console.log("bbq: "+bbq); 
+        //console.log("bbq: "+bbq); 
         if(bbq != 0 ){
             plaintext = plaintext + bbq + "x\tBBQ\n";
         }
@@ -928,7 +928,7 @@ function EditForm(){
         if(countValues['bike'] !== undefined && isNaN(countValues['bike']) == false){
             bike = countValues['bike'];
         }
-        console.log("bike: "+bike); 
+        //console.log("bike: "+bike); 
         if(bike != 0 ){
             plaintext = plaintext + bike + "x\tBicycles\n";
         }
@@ -937,7 +937,7 @@ function EditForm(){
         if(countValues['deckBox'] !== undefined && isNaN(countValues['deckBox']) == false){
             deckBox = countValues['deckBox'];
         }
-        console.log("deckBox: "+deckBox); 
+        //console.log("deckBox: "+deckBox); 
         if(deckBox != 0 ){
             plaintext = plaintext + deckBox + "x\tDeckbox\n";
         }
@@ -946,7 +946,7 @@ function EditForm(){
         if(countValues['equipment'] !== undefined && isNaN(countValues['equipment']) == false){
             equipment = countValues['equipment'];
         }
-        console.log("equipment: "+equipment); 
+        //console.log("equipment: "+equipment); 
         if(equipment !=  0 ){
             plaintext = plaintext + equipment + "x\tOutdoor Equipment\n";
         }
@@ -956,7 +956,7 @@ function EditForm(){
         if(countValues['firepit'] !== undefined && isNaN(countValues['firepit']) == false){
             firepit = countValues['firepit'];
         }
-        console.log("firepit: "+firepit); 
+        //console.log("firepit: "+firepit); 
         if(firepit !=  0 ){
             plaintext = plaintext + firepit + "x\tFirepit\n";
         }
@@ -966,7 +966,7 @@ function EditForm(){
         if(countValues['toy'] !== undefined && isNaN(countValues['toy']) == false){
             toy = countValues['toy'];
         }
-        console.log("toy: "+toy); 
+        //console.log("toy: "+toy); 
         if(toy !=  0 ){
             plaintext = plaintext + toy + "x\tToy\n";
         }
@@ -975,7 +975,7 @@ function EditForm(){
         if(countValues['pot'] !== undefined && isNaN(countValues['pot']) == false){
             pot = countValues['pot'];
         }
-        console.log("pot: "+pot); 
+        //console.log("pot: "+pot); 
         if(pot != 0 ){
             plaintext = plaintext + pot + "x\tPotters\n";
         }
@@ -985,7 +985,7 @@ function EditForm(){
         if(countValues['umbrella'] !== undefined && isNaN(countValues['umbrella']) == false){
             umbrella = countValues['umbrella'];
         }
-        console.log("umbrella: "+umbrella); 
+        //console.log("umbrella: "+umbrella); 
         if(umbrella != 0 ){
             plaintext = plaintext + umbrella + "x\tUmbrella\n";
         }
@@ -994,7 +994,7 @@ function EditForm(){
         if(countValues['outTable'] !== undefined && isNaN(countValues['outTable']) == false){
             outTable = countValues['outTable'];
         }
-        console.log("outTable: "+outTable); 
+        //console.log("outTable: "+outTable); 
         if(outTable != 0 ){
             plaintext = plaintext + outTable + "x\tPatio Table\n";
         }
@@ -1004,7 +1004,7 @@ function EditForm(){
         if(countValues['outChair'] !== undefined && isNaN(countValues['outChair']) == false){
             outChair = countValues['outChair'];
         }
-        console.log("outChair: "+outChair); 
+        //console.log("outChair: "+outChair); 
         if(outChair != 0 ){
             plaintext = plaintext + outChair + "x\tPatio Chair\n";
         }
@@ -1014,7 +1014,7 @@ function EditForm(){
         if(countValues['adr'] !== undefined && isNaN(countValues['adr']) == false){
             adr = countValues['adr'];
         }
-        console.log("adr: "+adr); 
+        //console.log("adr: "+adr); 
         if(adr != 0 ){
             plaintext = plaintext + adr + "x\tAdriondack\n";
         }
@@ -1023,7 +1023,7 @@ function EditForm(){
         if(countValues['outLove'] !== undefined && isNaN(countValues['outLove']) == false){
             outLove = countValues['outLove'];
         }
-        console.log("outLove: "+outLove); 
+        //console.log("outLove: "+outLove); 
         if(outLove != 0 ){
             plaintext = plaintext + outLove + "x\tOutDoor Loveseat\n";
         }
@@ -1033,7 +1033,7 @@ function EditForm(){
         if(countValues['exbike'] !== undefined && isNaN(countValues['exbike']) == false){
             exbike = countValues['exbike'];
         }
-        console.log("exbike: "+exbike); 
+        //console.log("exbike: "+exbike); 
         if(exbike != 0 ){
             plaintext = plaintext + exbike + "x\tExercise Bike\n";
         }
@@ -1042,7 +1042,7 @@ function EditForm(){
         if(countValues['exStation'] !== undefined && isNaN(countValues['exStation']) == false){
             exStation = countValues['exStation'];
         }
-        console.log("exStation: "+exStation); 
+        //console.log("exStation: "+exStation); 
         if(exStation != 0 ){
             plaintext = plaintext + exStation + "x\tExercise Station\n";
         }
@@ -1052,7 +1052,7 @@ function EditForm(){
         if(countValues['treadmill'] !== undefined && isNaN(countValues['treadmill']) == false){
             treadmill = countValues['treadmill'];
         }
-        console.log("treadmill: "+treadmill); 
+        //console.log("treadmill: "+treadmill); 
         if(treadmill != 0 ){
             plaintext = plaintext + treadmill + "x\tTreadmill\n";
         }
@@ -1061,7 +1061,7 @@ function EditForm(){
         if(countValues['fridge'] !== undefined && isNaN(countValues['fridge']) == false){
             fridge = countValues['fridge'];
         }
-        console.log("fridge: "+fridge); 
+        //console.log("fridge: "+fridge); 
         if(fridge != 0 ){
             plaintext = plaintext + fridge + "x\tFridge/Freezer\n";
         }
@@ -1071,7 +1071,7 @@ function EditForm(){
         if(countValues['deepFreeze'] !== undefined && isNaN(countValues['deepFreeze']) == false){
             deepFreeze = countValues['deepFreeze'];
         }
-        console.log("deepFreeze: "+deepFreeze); 
+        //console.log("deepFreeze: "+deepFreeze); 
         if(deepFreeze != 0 ){
             plaintext = plaintext + deepFreeze + "x\tDeep Freeze\n";
         }
@@ -1080,7 +1080,7 @@ function EditForm(){
         if(countValues['ladder'] !== undefined && isNaN(countValues['ladder']) == false){
             ladder = countValues['ladder'];
         }
-        console.log("ladder: "+ladder); 
+        //console.log("ladder: "+ladder); 
         if(ladder != 0 ){
             plaintext = plaintext + ladder + "x\tLadder\n";
         }
@@ -1089,7 +1089,7 @@ function EditForm(){
         if(countValues['storage'] !== undefined && isNaN(countValues['storage']) == false){
             storage = countValues['storage'];
         }
-        console.log("storage: "+storage); 
+        //console.log("storage: "+storage); 
         if(storage != 0 ){
             plaintext = plaintext + storage + "x\tStorage Rack\n";
         }
@@ -1099,7 +1099,7 @@ function EditForm(){
         if(countValues['toolChest'] !== undefined && isNaN(countValues['toolChest']) == false){
             toolChest = countValues['toolChest'];
         }
-        console.log("toolChest: "+toolChest); 
+        //console.log("toolChest: "+toolChest); 
         if(toolChest != 0 ){
             plaintext = plaintext + toolChest + "x\tTool Chest\n";
         }
@@ -1108,7 +1108,7 @@ function EditForm(){
         if(countValues['tools'] !== undefined && isNaN(countValues['tools']) == false){
             tools = countValues['tools'];
         }
-        console.log("tools: "+tools); 
+        //console.log("tools: "+tools); 
         if(tools != 0 ){
             plaintext = plaintext + tools + "x\tGarden Tools\n";
         }
@@ -1118,7 +1118,7 @@ function EditForm(){
         if(countValues['tires'] !== undefined && isNaN(countValues['tires']) == false){
             tires = countValues['tires'];
         }
-        console.log("tires: "+tires); 
+        //console.log("tires: "+tires); 
         if(tires != 0 ){
             plaintext = plaintext + tires + "x\tTires\n";
         }
@@ -1127,7 +1127,7 @@ function EditForm(){
         if(countValues['weight'] !== undefined && isNaN(countValues['weight']) == false){
             weight = countValues['weight'];
         }
-        console.log("weight: "+weight); 
+        //console.log("weight: "+weight); 
         if(weight != 0 ){
             plaintext = plaintext + weight + "x\tWeight Set\n";
         }
@@ -1137,7 +1137,7 @@ function EditForm(){
         if(countValues['box'] !== undefined && isNaN(countValues['box']) == false){
             box = countValues['box'];
         }
-        console.log("box: "+box);
+        //console.log("box: "+box);
         if(box != 0 ){
             plaintext = plaintext + box + "x\tBoxes/Bins\n";
         } 
@@ -1147,7 +1147,7 @@ function EditForm(){
         if(countValues['boxL'] !== undefined && isNaN(countValues['boxL']) == false){
             boxL = countValues['boxL'];
         }
-        console.log("boxL: "+boxL); 
+        //console.log("boxL: "+boxL); 
         if(boxL != 0 ){
             plaintext = plaintext + boxL + "x\tLarge Totes\n";
         }
@@ -1156,7 +1156,7 @@ function EditForm(){
         if(countValues['ac'] !== undefined && isNaN(countValues['ac']) == false){
             ac = countValues['ac'];
         }
-        console.log("ac: "+ac); 
+        //console.log("ac: "+ac); 
         if(ac != 0 ){
             plaintext = plaintext + ac + "x\tAC/Heater\n";
         }
@@ -1166,7 +1166,7 @@ function EditForm(){
         if(countValues['coatRack'] !== undefined && isNaN(countValues['coatRack']) == false){
             coatRack = countValues['coatRack'];
         }
-        console.log("coatRack: "+coatRack); 
+        //console.log("coatRack: "+coatRack); 
         if(coatRack != 0 ){
             plaintext = plaintext + coatRack + "x\tCoat Rack\n";
         }
@@ -1175,7 +1175,7 @@ function EditForm(){
         if(countValues['deco'] !== undefined && isNaN(countValues['deco']) == false){
             deco = countValues['deco'];
         }
-        console.log("deco: "+deco); 
+        //console.log("deco: "+deco); 
         if(deco != 0 ){
             plaintext = plaintext + deco + "x\tDecoration/Statue\n";
         }
@@ -1185,7 +1185,7 @@ function EditForm(){
         if(countValues['fan'] !== undefined && isNaN(countValues['fan']) == false){
             fan = countValues['fan'];
         }
-        console.log("fan: "+fan); 
+        //console.log("fan: "+fan); 
         if(fan != 0 ){
             plaintext = plaintext + fan + "x\tFan\n";
         }
@@ -1194,7 +1194,7 @@ function EditForm(){
         if(countValues['suitcase'] !== undefined && isNaN(countValues['suitcase']) == false){
             suitcase = countValues['suitcase'];
         }
-        console.log("suitcase: "+suitcase); 
+        //console.log("suitcase: "+suitcase); 
         if(suitcase != 0 ){
             plaintext = plaintext + suitcase + "x\tSuitcase\n";
         }
@@ -1203,7 +1203,7 @@ function EditForm(){
         if(countValues['piano'] !== undefined && isNaN(countValues['piano']) == false){
             piano = countValues['piano'];
         }
-        console.log("piano: "+piano); 
+        //console.log("piano: "+piano); 
         if(piano != 0 ){
             plaintext = plaintext + piano + "x\tApartment Piano\n";
         }
@@ -1213,7 +1213,7 @@ function EditForm(){
         if(countValues['upPiano'] !== undefined && isNaN(countValues['upPiano']) == false){
             upPiano = countValues['upPiano'];
         }
-        console.log("upPiano: "+upPiano); 
+        //console.log("upPiano: "+upPiano); 
         if(upPiano != 0 ){
             plaintext = plaintext + upPiano + "x\tUpright Piano\n";
         }
@@ -1223,7 +1223,7 @@ function EditForm(){
         if(countValues['pianoBaby'] !== undefined && isNaN(countValues['pc']) == false){
             pianoBaby = countValues['pianoBaby'];
         }
-        console.log("pianoBaby: "+pianoBaby); 
+        //console.log("pianoBaby: "+pianoBaby); 
         if(pianoBaby != 0 ){
             plaintext = plaintext + pianoBaby + "x\tBaby Grand Piano\n";
         }
@@ -1232,7 +1232,7 @@ function EditForm(){
         if(countValues['keyboard'] !== undefined && isNaN(countValues['keyboard']) == false){
             keyboard = countValues['keyboard'];
         }
-        console.log("keyboard: "+keyboard); 
+        //console.log("keyboard: "+keyboard); 
         if(keyboard != 0 ){
             plaintext = plaintext + keyboard + "x\tKeyboard\n";
         }
@@ -1242,7 +1242,7 @@ function EditForm(){
         if(countValues['drum'] !== undefined && isNaN(countValues['drum']) == false){
             drum = countValues['drum'];
         }
-        console.log("drum: "+drum); 
+        //console.log("drum: "+drum); 
         if(drum != 0 ){
             plaintext = plaintext + drum + "x\tDrumset/Instrument\n";
         }
@@ -1251,7 +1251,7 @@ function EditForm(){
         if(countValues['guitar'] !== undefined && isNaN(countValues['guitar']) == false){
             guitar = countValues['guitar'];
         }
-        console.log("guitar: "+guitar); 
+        //console.log("guitar: "+guitar); 
         if(guitar != 0 ){
             plaintext = plaintext + guitar + "x\tGuitar\n";
         }
@@ -1261,7 +1261,7 @@ function EditForm(){
         if(countValues['speaker'] !== undefined && isNaN(countValues['speaker']) == false){
             speaker = countValues['speaker'];
         }
-        console.log("speaker: "+speaker); 
+        //console.log("speaker: "+speaker); 
         if(speaker != 0 ){
             plaintext = plaintext + speaker + "x\tSpeakers/Amps\n";
         }
@@ -1270,7 +1270,7 @@ function EditForm(){
         if(countValues['cat'] !== undefined && isNaN(countValues['cat']) == false){
             cat = countValues['cat'];
         }
-        console.log("cat: "+cat); 
+        //console.log("cat: "+cat); 
         if(cat != 0 ){
             plaintext = plaintext + cat + "x\tCatscartch\n";
         }
@@ -1279,7 +1279,7 @@ function EditForm(){
         if(countValues['obese'] !== undefined && isNaN(countValues['obese']) == false){
             obese = countValues['obese'];
         }
-        console.log("obese: "+obese); 
+        //console.log("obese: "+obese); 
         if(obese != 0 ){
             plaintext = plaintext + obese + "x\tOversized Item\n";
         }
@@ -1288,7 +1288,7 @@ function EditForm(){
         if(countValues['misc'] !== undefined && isNaN(countValues['misc']) == false){
             misc = countValues['misc'];
         }
-        console.log("misc: "+misc); 
+        //console.log("misc: "+misc); 
         if(misc != 0 ){
             plaintext = plaintext + misc + "x\tMiscellaneous Item\n";
         }
@@ -1297,7 +1297,7 @@ function EditForm(){
         if(countValues['assS'] !== undefined && isNaN(countValues['assS']) == false){
             assS = countValues['assS'];
         }
-        console.log("assS: "+assS); 
+        //console.log("assS: "+assS); 
         if(assS != 0 ){
             plaintext = plaintext + assS + "x\tAssembly SMALL\n";
         }
@@ -1307,7 +1307,7 @@ function EditForm(){
         if(countValues['assM'] !== undefined && isNaN(countValues['assM']) == false){
             assM = countValues['assM'];
         }
-        console.log("assM: "+assM); 
+        //console.log("assM: "+assM); 
         if(assM != 0 ){
             plaintext = plaintext + assM + "x\tAssembly MEDIUM\n";
         }
@@ -1316,7 +1316,7 @@ function EditForm(){
         if(countValues['assL'] !== undefined && isNaN(countValues['assL']) == false){
             assL = countValues['assL'];
         }
-        console.log("assL: "+assL);
+        //console.log("assL: "+assL);
         if(assL != 0 ){
             plaintext = plaintext + assL + "x\tAssembly LARGE\n";
         } 
@@ -1349,7 +1349,7 @@ function EditForm(){
         if(countValues['junkMatt'] !== undefined && isNaN(countValues['junkMatt']) == false){
             junkMatt = countValues['junkMatt'];
         }
-        console.log("junkMatt: "+junkMatt); 
+        //console.log("junkMatt: "+junkMatt); 
         if(junkMatt != 0 ){
             plaintext = plaintext + junkMatt + "x\tJUNK Mattress\n";
         }
@@ -1358,7 +1358,7 @@ function EditForm(){
         if(countValues['otherJunk'] !== undefined && isNaN(countValues['otherJunk']) == false){
             otherJunk = countValues['otherJunk'];
         }
-        console.log("otherJunk: "+otherJunk);
+        //console.log("otherJunk: "+otherJunk);
         if(otherJunk != 0 ){
             plaintext = plaintext+ "JUNK Miscellaneous Item: $" + otherJunk + "\n";
         }
@@ -1368,7 +1368,7 @@ function EditForm(){
         if(countValues['paper'] !== undefined && isNaN(countValues['paper']) == false){
             paper = countValues['paper'];
         }
-        console.log("paper: "+paper); 
+        //console.log("paper: "+paper); 
         if(paper != 0 ){
             plaintext = plaintext + paper + "x\tSUPPLIES Paper\n";
         }
@@ -1377,7 +1377,7 @@ function EditForm(){
         if(countValues['bubble'] !== undefined && isNaN(countValues['bubble']) == false){
             bubble = countValues['bubble'];
         }
-        console.log("bubble: "+bubble); 
+        //console.log("bubble: "+bubble); 
         if(bubble != 0 ){
             plaintext = plaintext + bubble + "x\tSUPPLIES Bubblewrap\n";
         }
@@ -1386,7 +1386,7 @@ function EditForm(){
         if(countValues['cardB'] !== undefined && isNaN(countValues['cardB']) == false){
             cardB = countValues['cardB'];
         }
-        console.log("cardB: "+cardB); 
+        //console.log("cardB: "+cardB); 
         if(cardB != 0 ){
             plaintext = plaintext + cardB + "x\tSUPPLIES Cardboard Box\n";
         }
@@ -1395,7 +1395,7 @@ function EditForm(){
         if(countValues['wardB'] !== undefined && isNaN(countValues['wardB']) == false){
             wardB = countValues['wardB'];
         }
-        console.log("wardB: "+wardB); 
+        //console.log("wardB: "+wardB); 
         if(wardB != 0 ){
             plaintext = plaintext + wardB + "x\tSUPPLIES Wardrobe Box\n";
         }
@@ -1426,11 +1426,11 @@ function EditForm(){
         if(document.getElementById('lunch').checked){
             lunch = true; 
             moveTime = parseFloat(moveTime+30);
-            console.log("Lunch set to true");
+            //console.log("Lunch set to true");
             
              
         }
-        console.log(lunch);
+        //console.log(lunch);
 
         const travelTime = document.getElementById('ttime').value; //travel time
         
@@ -1547,7 +1547,7 @@ function EditForm(){
             plaintext = plaintext + "Updated by: "+updatedBy + "\n";
         }
         
-        console.log(plaintext);
+        //console.log(plaintext);
 
         
 
@@ -1717,7 +1717,7 @@ function EditForm(){
         
         }
         catch(e){
-            console.log(e);
+            //console.log(e);
         }
     }
 
